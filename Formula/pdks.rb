@@ -1,23 +1,23 @@
 class Pdks < Formula
   desc "The Polydeukes covenant judge: covenant check, init, explain and docs, with pdks-<name> executables on PATH run as pdks <name>."
   homepage "https://github.com/huskyhoochu/polydeukes"
-  version "0.23.0"
+  version "0.25.0"
   license "MIT"
 
   on_macos do
     depends_on arch: :arm64
-    url "https://github.com/huskyhoochu/polydeukes/releases/download/v0.23.0/pdks-aarch64-apple-darwin-v0.23.0.tar.gz"
-    sha256 "2d04d9af2cf981b57298b68af68bb78aeac7dd86b9fcff9f2a5a98d65ac41e31"
+    url "https://github.com/huskyhoochu/polydeukes/releases/download/v0.25.0/pdks-aarch64-apple-darwin-v0.25.0.tar.gz"
+    sha256 "0e1318a55169c6c6c96d5b1e86219b10a155a57cf5b6eadb6ca00eeea6009967"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/huskyhoochu/polydeukes/releases/download/v0.23.0/pdks-x86_64-unknown-linux-musl-v0.23.0.tar.gz"
-      sha256 "e593b844c4035112a7a1030cfbf46ba36df236bb73f3c18f834f2ca0fb3eb3bc"
+      url "https://github.com/huskyhoochu/polydeukes/releases/download/v0.25.0/pdks-x86_64-unknown-linux-musl-v0.25.0.tar.gz"
+      sha256 "009ac3ca1456e21867e1ce890fc551ad5226ac099fbed20b782f2a1f05ef25c5"
     end
     on_arm do
-      url "https://github.com/huskyhoochu/polydeukes/releases/download/v0.23.0/pdks-aarch64-unknown-linux-musl-v0.23.0.tar.gz"
-      sha256 "1f72bed170776f1a7be07e3d6e66e84c1658a07f9a71a21b279952e28f55777d"
+      url "https://github.com/huskyhoochu/polydeukes/releases/download/v0.25.0/pdks-aarch64-unknown-linux-musl-v0.25.0.tar.gz"
+      sha256 "d8baf6090ea56ae4429b6cc94e99c297df9dbe6bc145fe4211b33e05f0827c0d"
     end
   end
 
